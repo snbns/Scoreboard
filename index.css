@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'CursedTimer';
+    src: url('CursedTimerULiL.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    color: white;
+    width: 575px;
+    height: 385px;
+}
+
+button {
+    height: 45px;
+    width: 45px;
+    font-family: CursedTimer;
+    font-size: 15px;
+    margin: 0;
+    border: #9AABD8 2px solid;
+    background: #1B244A;
+    color: #9AABD8;
+    border-radius: 5px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home, .guest {
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.home-points, .guest-points {
+    background: black;
+    height: 120px;
+    width: 155px;
+    margin: -40px auto 20px;
+}
+
+.home-points-text, .guest-points-text {
+    color: #F94F6D;
+    font-family: CursedTimer;
+    height: 120px;
+    width: 117px;
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+    line-height: 120px;
+}
